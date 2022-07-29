@@ -1,0 +1,11 @@
+[moshe]
+node1 ansible_host=localhost ansible_port=49153
+[moshe:vars]
+yoyo=what
+
+
+[servers]
+node1 ansible_host=localhost ansible_port=49153
+node2 ansible_host=localhost ansible_port=49154
+[servers:vars]
+yoyo=blabla
