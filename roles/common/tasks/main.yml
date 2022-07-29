@@ -1,0 +1,10 @@
+--- 
+- name: Copy vim 
+  copy: src=vim dest=/usr/bin
+
+- name: Copy zip 
+  copy: src=zip dest=/usr/bin
+
+- name: Copy hello.txt
+  copy: src=hello.txt dest=/tmp/test1
+
