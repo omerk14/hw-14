@@ -1,0 +1,11 @@
+---
+- hosts: servers
+  serial: 1
+  vars:
+    - moshe: "david"
+  tasks:
+
+  - name: Template a file to another place
+    template:
+        src: facts.j2
+        dest: /tmp/test2
